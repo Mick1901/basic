@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/folio.css">
+</head>
+<body>
+    <label>สไตล์
+  <select id="theme">
+    <option value="minimal">Minimal</option>
+    <option value="dark">Dark Tech</option>
+    <option value="creative">Creative</option>
+    <option value="resume">Resume Pro</option>
+    <option value="editorial">Editorial</option>
+  </select>
+</label>
+
+<div class="pf" data-theme="minimal">
+  <div class="top">
+    <!-- รูป default แบบ SVG silhouette ใช้สีตามธีม -->
+    <svg class="avatar" viewBox="0 0 100 100">
+      <rect width="100" height="100" fill="var(--chip)"/>
+      <circle cx="50" cy="40" r="18" fill="var(--p)"/>
+      <path d="M16 96c3-22 17-34 34-34s31 12 34 34z" fill="var(--p)"/>
+    </svg>
+    <div>
+      <h2>ชื่อ นามสกุล</h2>
+      <div class="role">Data Analyst</div>
+    </div>
+  </div>
+  <p>โครงสร้าง HTML เดียวกัน แค่เปลี่ยนค่าตัวแปร CSS ก็ได้อีกสไตล์</p>
+  <div class="chips">
+    <span>Excel</span><span>Power BI</span><span>Python</span><span>SQL</span>
+  </div>
+</div>
+</body>
+<script src="../js/folio.js"></script>
+</html>

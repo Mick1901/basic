@@ -1,0 +1,33 @@
+html,body{height: 100%;}
+body{padding: 2vh 1.5vw;}
+.container {
+    height: 100%;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    display: flex; flex-direction: column;
+    flex: 0 0 17%;
+    border:3px solid black;
+    
+}
+
+.box-right{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 50px;
+}
+.up {
+    height: 20%;
+    border:3px solid black;
+    
+}
+
+.body {
+    height: 80%;
+    border:3px solid black;
+
+}
